@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="only light"/>
+  <meta name="darkreader-lock"/>
   <title>Amarilys Hall</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet"/>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
+      color-scheme: only light;
       --plum: #8b2a52;
       --plum-dark: #6a1e3e;
       --rose: #e8789a;
@@ -140,6 +143,7 @@
     .link-card:nth-child(1) { animation-delay: 0.35s; }
     .link-card:nth-child(2) { animation-delay: 0.45s; }
     .link-card:nth-child(3) { animation-delay: 0.55s; }
+    .link-card:nth-child(4) { animation-delay: 0.65s; }
 
     .link-card:hover {
       background: rgba(255, 255, 255, 0.9);
@@ -279,6 +283,19 @@
         <div class="link-label">
           <span>BIS Body Braid</span>
           <small>Etsy</small>
+        </div>
+        <span class="link-arrow">→</span>
+      </a>
+
+      <!-- Sold out? Get notified -->
+      <a href="https://amarilyshall-web.github.io/emailsignup/" target="_blank" rel="noopener" class="link-card">
+        <div class="link-icon">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+          </svg>
+        </div>
+        <div class="link-label">
+          <span>Sold out? Click here to be notified when I make a new listing.</span>
         </div>
         <span class="link-arrow">→</span>
       </a>
